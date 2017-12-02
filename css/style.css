@@ -608,7 +608,7 @@ article footer .addthis iframe {
   margin-bottom: 0;
 }
 .recent-posts ul {
-  list-style: disc;
+  list-style: none;
 }
 .recent-posts ul li {
   margin-bottom: 5px;
