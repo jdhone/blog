@@ -2,44 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://nickdrane.com/about/index.html</loc>
+    <loc>http://nickdrane.com/leveraging-immutability-in-react/</loc>
     
-    <lastmod>2017-12-02T17:41:10.000Z</lastmod>
+    <lastmod>2017-12-03T22:51:23.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://nickdrane.com/build-your-own-regex/</loc>
     
-    <lastmod>2017-11-30T17:48:50.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://nickdrane.com/projects/index.html</loc>
-    
-    <lastmod>2017-10-20T01:35:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://nickdrane.com/write-your-own-redux-connect/</loc>
-    
-    <lastmod>2017-10-03T16:57:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://nickdrane.com/leveraging-immutability-in-react/</loc>
-    
-    <lastmod>2017-10-03T16:56:49.000Z</lastmod>
+    <lastmod>2017-12-03T22:36:31.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://nickdrane.com/using-reduce/</loc>
     
-    <lastmod>2017-10-02T16:52:33.000Z</lastmod>
+    <lastmod>2017-12-03T22:36:31.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://nickdrane.com/write-your-own-redux-connect/</loc>
+    
+    <lastmod>2017-12-03T22:36:31.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://nickdrane.com/about/index.html</loc>
+    
+    <lastmod>2017-12-03T22:36:31.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://nickdrane.com/projects/index.html</loc>
+    
+    <lastmod>2017-12-03T22:36:31.000Z</lastmod>
     
   </url>
   
