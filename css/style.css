@@ -100,7 +100,6 @@ a:hover {
 }
 table {
   display: block;
-  overflow-x: auto;
   white-space: nowrap;
   font-family: 'Arial';
   margin: 25px auto;
