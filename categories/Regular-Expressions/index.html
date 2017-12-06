@@ -20,7 +20,10 @@
 
   <link href="/favicon.png" rel="icon">
   <link rel="alternate" href="/atom.xml" title="Nick Drane" type="application/atom+xml">
-  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+
+  <link rel="stylesheet" href="/css/style.css"  media="none" onload="if(media!='all')media='all'">
+  <noscript><link rel="stylesheet" href="css.css"></noscript>
+
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   
 	<script>
@@ -92,7 +95,7 @@
   <div class="widget tag about">
     <ul class="entry">
       <div>
-        <img class="about-photo" src="https://avatars3.githubusercontent.com/u/1634953?v=4&s=460" alt="photo of me"/>
+        <img class="about-photo" src="/images/about-photo.jpg" alt="photo of Nick Drane"/>
       </div>
       <p class="about-photo-text"> Nick Drane's blog about programming, hacking, software, computer security, and compute science.</p>
 
@@ -107,6 +110,10 @@
 <div class="widget tag recent-posts">
   <h3 class="title">Recent Posts</h3>
   <ul class="entry">
+    
+      <li>
+        <a href="/scraping-the-web-with-puppeteer-lessons-learned/">Scraping the Web With Puppeteer: Lessons-learned</a>
+      </li>
     
       <li>
         <a href="/build-your-own-regex/">Build a Regex Engine in Less than 40 Lines of Code</a>
@@ -137,7 +144,7 @@
   
     <li><a href="/categories/Immutability/">Immutability</a><small>1</small></li>
   
-    <li><a href="/categories/Javascript/">Javascript</a><small>1</small></li>
+    <li><a href="/categories/Javascript/">Javascript</a><small>2</small></li>
   
     <li><a href="/categories/React/">React</a><small>2</small></li>
   
@@ -146,6 +153,8 @@
     <li><a href="/categories/Redux/">Redux</a><small>1</small></li>
   
     <li><a href="/categories/Regular-Expressions/">Regular Expressions</a><small>1</small></li>
+  
+    <li><a href="/categories/Web-Scraping/">Web Scraping</a><small>1</small></li>
   
   </ul>
 </div>

@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://nickdrane.com/scraping-the-web-with-puppeteer-lessons-learned/</loc>
+    
+    <lastmod>2017-12-04T23:56:13.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://nickdrane.com/leveraging-immutability-in-react/</loc>
     
     <lastmod>2017-12-03T22:51:23.000Z</lastmod>
@@ -16,14 +23,14 @@
   </url>
   
   <url>
-    <loc>http://nickdrane.com/using-reduce/</loc>
+    <loc>http://nickdrane.com/write-your-own-redux-connect/</loc>
     
     <lastmod>2017-12-03T22:36:31.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://nickdrane.com/write-your-own-redux-connect/</loc>
+    <loc>http://nickdrane.com/using-reduce/</loc>
     
     <lastmod>2017-12-03T22:36:31.000Z</lastmod>
     
