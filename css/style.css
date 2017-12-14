@@ -99,8 +99,6 @@ a:hover {
   margin-top: 20px;
 }
 table {
-  display: block;
-  white-space: nowrap;
   font-family: 'Arial';
   margin: 25px auto;
   border-collapse: collapse;

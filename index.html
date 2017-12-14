@@ -67,6 +67,75 @@
     <header>
       
   
+    <h1 class="title"><a href="/build-your-own-lisp-interpreter/">Build Your Own Lisp Interpreter</a></h1>
+  
+
+      
+        <time datetime="2017-12-14T17:43:54.000Z">2017-12-14</time>
+      
+    </header>
+    <div class="entry">
+      
+        <p>I read Peter Norvig’s <a href="http://norvig.com/lispy.html" target="_blank" rel="external">blog post</a> on creating a Lisp interpreter the other day, and it reminded how mind-blowing it was the first time I saw an interpreter implemented (in <a href="https://mitpress.mit.edu/sicp/full-text/book/book.html" target="_blank" rel="external">SICP</a>). This blog post walks through an interpreter I wrote in Javascript. I’ve modeled it after Norvig’s implementation, however I’ve optimized optimized for accessibility, particularly for people without Lisp experience. Furthermore, I’ve added test specs so that someone can self-guide themselves through the creation of their own implementation. The specs and solution can be found in this <a href="https://github.com/nadrane/build-your-own-lisp-interpreter" target="_blank" rel="external">GitHub repository</a>.</p>
+<h2 id="A-Basic-Calculator"><a href="#A-Basic-Calculator" class="headerlink" title="A Basic Calculator"></a>A Basic Calculator</h2><p>The first step is to create a program that can take formatted text strings as input, parse them, and then perform the mathematical operations they specify. Lisp uses a notation called prefix notation. Here are some examples:</p>
+<table>
+<thead>
+<tr>
+<th>Lisp Syntax</th>
+<th>Value</th>
+<th>Comment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>(+ 3 4)</code></td>
+<td>7</td>
+<td>As you can see, the operator comes before the operands</td>
+</tr>
+<tr>
+<td><code>(+ 3 4 100 2)</code></td>
+<td>109</td>
+<td>Prefix notation allows more than 2 operands!</td>
+</tr>
+<tr>
+<td><code>(* (+ 3 4) -3)</code></td>
+<td>-21</td>
+<td>Operations can be nested arbitrarily and are evaluated inside out</td>
+</tr>
+<tr>
+<td><code>(* (+ 3 4) -3)</code></td>
+<td>-36</td>
+<td>Spacing it required in between an operator and an operand and between two operands. Everywhere else it has no meaning</td>
+</tr>
+</tbody>
+</table>
+<p>Parsing these expressions will involve two steps:</p>
+<ol>
+<li>Tokenization - Dividing up the languages parts into it’s smallest pieces, called tokens</li>
+<li>Syntax analysis - Converting a sequence of tokens into a tree like structure called an Abstract Syntax Tree (or AST for short) conducive for program execution</li>
+</ol>
+<h2 id="Tokenization"><a href="#Tokenization" class="headerlink" title="Tokenization"></a>Tokenization</h2><p>The first thing we want to do is identify the smallest possible strings that have meaning within our language. These strings are called tokens. Looking at the above Lisp expressions, we can see that numbers have meaning, <code>(</code> and <code>)</code> have meaning, and the mathematical operators, <code>+</code> and <code>*</code> have meaning.</p>
+
+      
+    </div>
+      
+        
+        
+      
+      <div class="clearfix"></div>
+      </footer>
+  </div>
+</article>
+
+
+
+
+
+  <article class="post">
+  <div class="post-content">
+    <header>
+      
+  
     <h1 class="title"><a href="/scraping-the-web-with-puppeteer-lessons-learned/">Scraping the Web with Puppeteer: Lessons Learned</a></h1>
   
 
@@ -612,6 +681,10 @@
   <ul class="entry">
     
       <li>
+        <a href="/build-your-own-lisp-interpreter/">Build Your Own Lisp Interpreter</a>
+      </li>
+    
+      <li>
         <a href="/scraping-the-web-with-puppeteer-lessons-learned/">Scraping the Web with Puppeteer: Lessons Learned</a>
       </li>
     
@@ -627,10 +700,6 @@
         <a href="/write-your-own-redux-connect/">Write Your Own React-Redux Connect</a>
       </li>
     
-      <li>
-        <a href="/using-reduce/">Using Reduce</a>
-      </li>
-    
   </ul>
 </div>
 
@@ -640,11 +709,13 @@
   <h3 class="title">Categories</h3>
   <ul class="entry">
   
+    <li><a href="/categories/Build-Your-Own/">Build Your Own</a><small>3</small></li>
+  
     <li><a href="/categories/Functional-Programming/">Functional Programming</a><small>1</small></li>
   
     <li><a href="/categories/Immutability/">Immutability</a><small>1</small></li>
   
-    <li><a href="/categories/Javascript/">Javascript</a><small>3</small></li>
+    <li><a href="/categories/Javascript/">Javascript</a><small>4</small></li>
   
     <li><a href="/categories/React/">React</a><small>2</small></li>
   

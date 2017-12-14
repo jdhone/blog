@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://nickdrane.com/build-your-own-lisp-interpreter/</loc>
+    
+    <lastmod>2017-12-14T21:56:29.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://nickdrane.com/build-your-own-regex/</loc>
+    
+    <lastmod>2017-12-14T17:44:46.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://nickdrane.com/write-your-own-redux-connect/</loc>
+    
+    <lastmod>2017-12-14T17:44:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://nickdrane.com/crawler/index.html</loc>
     
     <lastmod>2017-12-11T01:28:18.000Z</lastmod>
@@ -12,13 +33,6 @@
     <loc>http://nickdrane.com/scraping-the-web-with-puppeteer-lessons-learned/</loc>
     
     <lastmod>2017-12-10T23:08:08.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://nickdrane.com/build-your-own-regex/</loc>
-    
-    <lastmod>2017-12-07T00:04:26.000Z</lastmod>
     
   </url>
   
@@ -45,13 +59,6 @@
   
   <url>
     <loc>http://nickdrane.com/using-reduce/</loc>
-    
-    <lastmod>2017-12-03T22:36:31.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://nickdrane.com/write-your-own-redux-connect/</loc>
     
     <lastmod>2017-12-03T22:36:31.000Z</lastmod>
     
